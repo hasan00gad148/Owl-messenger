@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/aa"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:paddingLeft="20dp"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/image_View"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/ic_baseline_image_24" />
+
+    <Button
+        android:id="@+id/choose_image_btn"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="294dp"
+        android:layout_height="48dp"
+        android:background="@drawable/profile"
+        android:backgroundTint="@color/white"
+        android:fontFamily="monospace"
+        android:text="Edit your profile picture"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="285dp"
+        android:layout_height="41dp"
+        android:background="@drawable/input_bg"
+        android:drawableLeft="@drawable/ic_baseline_alternate_email_24"
+        android:gravity="center"
+        android:paddingLeft="20dp"
+        android:paddingRight="40dp"
+        android:paddingBottom="3dp"
+        android:text="Put your username"
+        android:textSize="22sp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="294dp"
+        android:layout_height="125dp"
+        android:background="@drawable/input_bg"
+        android:fontFamily="monospace"
+        android:gravity="center"
+        android:text="Your Bio..."
+        android:maxLength="200"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="297dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_bg"
+        android:text="Button" />
+
+    <!-- <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello World!"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" /> -->
+
+</LinearLayout>
+
+
+
